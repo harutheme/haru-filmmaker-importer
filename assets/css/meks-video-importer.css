@@ -1,0 +1,123 @@
+#mvi-video-import .wp-list-table .mvi-import-checkbox{
+    margin-left: 0;
+}
+
+.tools_page_meks_video_importer .form-field .smaller{
+    width: 25rem;
+}
+.tools_page_meks_video_importer .form-field input[type=number].smaller{
+    width: 5rem;
+}
+
+#mvi-fetched td img{
+    max-width: 80px;
+}
+
+#mvi-fetched #image{
+    width: 80px;
+}
+
+#mvi-fetched #title{
+    width: 400px;
+}
+#mvi-fetched .tablenav{
+    display: none;
+}
+
+#mvi-video-import{
+    display: none;
+}
+
+#mvi-video-import.active{
+    display: block;
+}
+
+#mvi-video-import .type-change{
+    display: none;
+}
+
+#mvi-video-import .type-change.active{
+    display: block;
+}
+
+#mvi-video-import tr.type-change.active{
+    display: table-row;
+}
+
+.type-change.youtube-type, .type-change.vimeo-type{
+    display: none;
+}
+
+.type-change.youtube-type.active, .type-change.vimeo-type.active{
+    display: block;
+}
+
+#youtube-messages td{
+    padding: 0;
+}
+
+/**
+ * Messages
+ */
+#mvi-vimeo-api-verify-message td.mvi-notice{padding: 0;}
+#mvi-vimeo-api-verify-message td.mvi-notice > p{margin-top: 0;}
+.mvi-info,.mvi-info p{  color: #00a0d2  }
+.mvi-warning,.mvi-warning p{  color: #d49900  }
+.mvi-success,.mvi-success p{  color: #46b450  }
+.mvi-error,.mvi-error p{  color: #dc3232  }
+
+.dib{  display: inline-block;  }
+
+#import-buttons p.submit{
+    float: left;
+}
+#import-buttons label{
+    float: left;
+    margin: 30px 0 0 30px;
+}
+
+#mvi-youtube-loader, #mvi-vimeo-loader{
+    float: inherit;
+    margin: 5px 10px;
+    vertical-align: top;
+}
+
+#save-and-import-messages{
+    float: left;
+    margin: 20px 20px 0;
+}
+.mvi-delete-template .mvi-error{
+    display: inline-block;
+}
+.mvi-delete-template{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.mvi-delete-template:focus, .mvi-delete-template:hover, .mvi-delete-template:active{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.mvi-delete-template p{
+    margin: 0;
+}
+.meks-video-importer-delete-template-message{
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.provider{
+    display: none;
+}
+.provider.active{
+    display: table-row;
+}
+
+.mvi-total-count{
+    margin: 0 0 10px;
+}
+
+.youtube-type.search{
+    background: transparent;
+}
