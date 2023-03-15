@@ -104,8 +104,14 @@
         <?php
         foreach ($post_types as $post_type) :
             if ($post_type->taxonomies):
+                //print_r( $post_type->taxonomies );
                 $saved_taxonomies = $import_options['mvi-taxonomies'];
                 foreach ($post_type->taxonomies as $taxonomy) :
+
+                    if( !is_array($taxonomy) ){
+                        continue;
+                    }
+
                     ?>
                     <tr class="form-field mvi-<?php echo esc_attr($taxonomy['id']); ?> <?php echo esc_attr($post_type->name)?> type-change post-type <?php echo esc_attr(meks_video_importer_taxonomy_classes($post_type)); ?>">
                         <th class="row"><?php echo $taxonomy['name']; ?></th>

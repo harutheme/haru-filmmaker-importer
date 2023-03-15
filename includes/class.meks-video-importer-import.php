@@ -303,12 +303,8 @@ if (!class_exists('Meks_Video_Importer_Import')):
 
             } else {
                
-                $content = '
-                <!-- wp:core-embed/'. $provider .' {"url":"'.$video_url.'","type":"video","providerNameSlug":"'. $provider .'","className":""} -->
-                <figure class="wp-block-embed-'. $provider .' wp-block-embed is-type-video is-provider-'. $provider .'"><div class="wp-block-embed__wrapper"> 
-                '.$video_url.'
-                </div></figure>
-                <!-- /wp:core-embed/'. $provider .' -->';
+                // HaruTheme Customize
+                $content = '';
 
                 if ( !empty( $description) ) {
                     $content .= '<!-- wp:paragraph -->' . nl2br($description, true) . '<!-- /wp:paragraph -->';
@@ -318,7 +314,6 @@ if (!class_exists('Meks_Video_Importer_Import')):
 
             return $content;
         }
-
 
         // HaruTheme Customize
         function ISO8601ToSeconds($ISO8601){

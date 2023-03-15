@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Haru Filmmaker Importer
-Description: Customized from Meks Video Importer to help HaruTheme customer easily import YouTube and Vimeo videos in bulk to your posts, pages or any custom post type.
-Version: 1.0.0
+Description: Customized from Haru Filmmaker Importer to help HaruTheme customer easily import YouTube and Vimeo videos in bulk to your posts, pages or any custom post type.
+Version: 1.0.10
 Author: HaruTheme
-Author URI: http://harutheme.com
-Plugin URI: http://harutheme.com
+Author URI: https://harutheme.com
+Plugin URI: https://harutheme.com
 Text Domain: meks-video-importer
 Domain Path: /languages
 */
@@ -18,7 +18,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Define useful constants here
  */
-define( 'MEKS_VIDEO_IMPORTER_VERSION', '1.0.9' );
+define( 'MEKS_VIDEO_IMPORTER_VERSION', '1.0.10' );
 define( 'MEKS_VIDEO_IMPORTER_BASENAME', plugin_basename(__FILE__) );
 define( 'MEKS_VIDEO_IMPORTER_DIR', plugin_dir_path( __FILE__ ) );
 define( 'MEKS_VIDEO_IMPORTER_INCLUDES', trailingslashit( MEKS_VIDEO_IMPORTER_DIR . 'includes' ) );
